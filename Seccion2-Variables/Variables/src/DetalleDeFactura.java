@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.function.Function;
 
 public class DetalleDeFactura {
     public static void main(String[] args) {
@@ -35,5 +36,7 @@ public class DetalleDeFactura {
         double precioConImpuestos = precioTotal + impuestos;
 
         System.out.println("La factura \"" + nombreFactura + "\" tiene un total bruto de " + precioTotal + ", con un impuesto de " + impuestos + " y el monto después de impuesto es de " + precioConImpuestos);
+
+
     }
 }
